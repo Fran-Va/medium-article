@@ -42,14 +42,24 @@ div {
     padding: 120px 0;
 }
 
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
 .container {
   width: 700px;
   margin: 50px auto;
-  text-align: center;
 }
 
 .link-medium {
-  background-image: linear-gradient(rgb(233, 253, 240, 1));
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
   color: #636363;
   font-weight: lighter;
   font-size: 25px;
@@ -57,7 +67,7 @@ div {
 }
 
 .link-medium:hover {
-  background-image: linear-gradient(rgb(69, 219, 121));
+  background-image: linear-gradient(to bottom, rgb(69, 219, 121), rgb(69, 219, 121));
 }
 
 @media(max-width: 992px) {
